@@ -1,7 +1,7 @@
 FROM ruby
 MAINTAINER inokappa
 RUN apt-get update
-RUN git clone https://github.com/inokappa/oreno-dynamodb-tutorial.git /app
+RUN git clone https://github.com/inokappa/oreno-soramame-pipeline.git /app
 RUN chmod 755 /app/run.sh
 RUN mkdir -p /app/output/html
 RUN mkdir -p /app/output/png
